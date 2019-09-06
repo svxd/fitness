@@ -1,0 +1,259 @@
+@font-face {
+  font-family: 'Avenir Next Cyr Regular';
+  src: url("../fonts/AvenirNextCyr-Regular.eot");
+  src: url("../fonts/AvenirNextCyr-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextCyr-Regular.woff") format("woff"), url("../fonts/AvenirNextCyr-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Avenir Next Cyr Medium';
+  src: url("../fonts/AvenirNextCyr-Medium.eot");
+  src: url("../fonts/AvenirNextCyr-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextCyr-Medium.woff") format("woff"), url("../fonts/AvenirNextCyr-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bebas';
+  src: url("../fonts/BebasNeueBold.eot");
+  src: url("../fonts/BebasNeueBold.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasNeueBold.woff") format("woff"), url("../fonts/BebasNeueBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* fonts */
+/* colors */
+body {
+  margin: 0;
+  font-size: 20px;
+  font-family: "Avenir Next Cyr Regular", sans-serif;
+}
+.button {
+  text-transform: uppercase;
+  text-shadow: 0 2px 21px rgba(239, 255, 252, 0.46);
+  background-color: #23dcb8;
+  background-image: linear-gradient(-241deg, #48d7bb 0%, #0eb595 100%);
+  padding: 30px 70px;
+  border-radius: 100px;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+}
+.button:hover {
+  -webkit-box-shadow: 0 12px 43px rgba(35, 220, 184, 0.31);
+          box-shadow: 0 12px 43px rgba(35, 220, 184, 0.31);
+  color: #f2f2f2;
+}
+.button-about-me {
+  text-transform: uppercase;
+  text-shadow: 0 2px 21px rgba(239, 255, 252, 0.46);
+  -o-border-image: linear-gradient(-241deg, #48d7bb 0%, #0eb595 100%);
+     border-image: linear-gradient(-241deg, #48d7bb 0%, #0eb595 100%);
+  background-color: #fff;
+  padding: 30px 70px;
+  border-radius: 100px;
+  border: 2px solid #28c4a6;
+  color: #28c4a6;
+  font-family: 'Avenir Next Cyr Medium', sans-serif;
+  font-size: 18px;
+  margin-top: 80px;
+  display: block;
+}
+.form-btn {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  text-shadow: 0 2px 21px rgba(239, 255, 252, 0.46);
+  background-color: #23dcb8;
+  background-image: linear-gradient(-241deg, #48d7bb 0%, #0eb595 100%);
+  padding: 30px 70px;
+  border-radius: 100px;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+}
+.form-btn:hover {
+  -webkit-box-shadow: 0 12px 43px rgba(35, 220, 184, 0.7);
+          box-shadow: 0 12px 43px rgba(35, 220, 184, 0.7);
+  color: #f2f2f2;
+}
+.button-about-me:hover {
+  -webkit-box-shadow: 0 12px 43px rgba(35, 220, 184, 0.7);
+          box-shadow: 0 12px 43px rgba(35, 220, 184, 0.7);
+  color: #31d5b5;
+}
+.header {
+  background: #192430 url(../img/header-bg.png) no-repeat bottom / cover;
+  color: #ffffff;
+  padding-top: 36px;
+}
+.header-logo {
+  font-family: 'Avenir Next Cyr Medium', sans-serif;
+  font-size: 26px;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+.header-years {
+  font-family: 'Avenir Next Cyr Regular', sans-serif;
+  font-size: 16px;
+}
+.header-images {
+  float: right;
+  margin-left: 0;
+}
+.header-images img {
+  margin-right: 20px;
+  width: 25px;
+}
+.header-link {
+  color: #ffffff;
+}
+.header-link:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.header-phone {
+  font-family: 'Avenir Next Cyr Medium', sans-serif;
+  font-size: 20px;
+}
+.nav-header {
+  padding-bottom: 50px;
+}
+h1 {
+  margin-top: 200px;
+  font-family: 'Bebas';
+  font-size: 106px;
+  margin-bottom: 0;
+}
+.sub-title {
+  display: inline-block;
+  margin-top: 60px;
+  font-family: 'Avenir Next Cyr Medium', sans-serif;
+  font-size: 27px;
+}
+.header-btn {
+  margin-top: 84px;
+  margin-bottom: 100px;
+}
+.section-header {
+  line-height: 19px;
+  letter-spacing: 3px;
+  margin-top: 70px;
+  text-align: center;
+  font-family: 'Bebas';
+  font-size: 48px;
+  color: #19267d;
+}
+.features {
+  margin-bottom: 80px;
+}
+.features-items {
+  position: relative;
+  margin-top: 90px;
+  text-align: center;
+}
+.features-item {
+  padding: 20px;
+  margin-bottom: 98px;
+}
+.features-item img {
+  margin-top: 20px;
+  width: 96px;
+}
+.features-item:hover {
+  border-radius: 10px;
+  border: 0px solid #fff;
+  border-style: solid;
+  -webkit-box-shadow: 0 12px 43px rgba(35, 220, 184, 0.31);
+          box-shadow: 0 12px 43px rgba(35, 220, 184, 0.31);
+}
+.feature-p {
+  margin-top: 50px;
+}
+/* about-me */
+.about-me-content {
+  background-color: #f8fbfa;
+}
+.about-me-section-header {
+  text-align: left;
+  margin-top: 120px;
+  margin-bottom: 60px;
+}
+.about-me-subtitle {
+  font-family: 'Avenir Next Cyr Medium', sans-serif;
+  font-size: 20px;
+}
+.about-me-items {
+  margin-bottom: -120px;
+}
+.trainer {
+  position: relative;
+  z-index: 99;
+  left: -100px;
+  top: -25px;
+}
+/* sign-up-form */
+.sign-up-form {
+  margin-top: 120px;
+}
+.form-training {
+  text-align: center;
+  margin-top: 70px;
+}
+.form-input {
+  width: 360px;
+  height: 65px;
+  font-family: 'Avenir Next Cyr Regular', sans-serif;
+  font-size: 16px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  padding-left: 25px;
+  border-radius: 10px;
+  background-color: #f8fbfa;
+  border: none;
+  color: #6e837f;
+  outline: none;
+  margin-bottom: 20px;
+}
+.form-p {
+  font-family: 'Avenir Next Cyr Regular', sans-serif;
+  font-size: 14px;
+  color: #6e837f;
+}
+.form-span {
+  text-decoration: underline;
+}
+.politics {
+  color: #19267d;
+}
+.sign-up-form-sub-title {
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Avenir Next Cyr Medium', sans-serif;
+  font-size: 20px;
+  color: #212f3d;
+}
+/* footer */
+.footer {
+  background: #ffffff url(../img/footer-bg.png) center no-repeat;
+}
+.footer-images {
+  text-align: center;
+}
+.footer-images img {
+  width: 100px;
+  border: 2px solid #fff;
+  border-radius: 100px;
+  margin-top: 60px;
+  margin-right: 20px;
+  margin-bottom: 550px;
+  padding: 30px;
+}
+.footer-images img:hover {
+  border: 3px solid #23dcb8;
+  background-color: rgba(35, 220, 184, 0.1);
+  -webkit-box-shadow: 0 12px 43px rgba(35, 220, 184, 0.31);
+          box-shadow: 0 12px 43px rgba(35, 220, 184, 0.31);
+}
+.footer-section-header {
+  margin-top: 150px;
+  color: #fff;
+}
+/* @media */
